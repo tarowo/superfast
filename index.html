@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>We Have Moved</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="path/to/your/favicon.ico" type="image/x-icon">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
@@ -45,8 +45,8 @@
         }
 
         #moved {
-            font-size: 36px;
-            font-weight: bold;
+            font-size: 36px; /* Updated size */
+            font-weight: bold; /* Updated weight */
         }
 
         #zhh {
@@ -85,13 +85,13 @@
     <p id="murdoc-link"><a href="http://murdocswinnebago.superfastjellyfish.xyz" target="_blank">Murdoc's Winnebago</a></p>
 
     <script>
-        // overcomplicated
+        // Dynamically load the logo image using JavaScript
         var logoContainer = document.getElementById('logo-container');
         var logoImage = new Image();
         logoImage.onload = function() {
             logoContainer.appendChild(logoImage);
         };
-        logoImage.src = 'logo.png';
+        logoImage.src = 'path/to/your/logo.png';
     </script>
 </body>
 </html>
